@@ -4,6 +4,7 @@ const mainNav = document.querySelector(".main-nav");
 const switchColorBtn = document.querySelector(".switch-color");
 const root = document.documentElement;
 
+/* dark-light mode switch */
 switchColorBtn.addEventListener('click', function() {
   if (switchColorBtn.classList.contains('flip-x')) {
     switchColorBtn.classList.remove('flip-x');
@@ -18,7 +19,7 @@ switchColorBtn.addEventListener('click', function() {
   }
 });
 
-
+/* controls the burger menu for mobile*/
 function menuAnim() {
   const expanded = menuBtn.getAttribute("aria-expanded");
   if (expanded === "true") {
