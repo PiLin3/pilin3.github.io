@@ -14,11 +14,16 @@
   <body>
     <section id="about-section">
       <header>
-        <button class="menu-icon" aria-expanded="false" onclick="menuAnim()">
+        <button
+          class="menu-icon"
+          aria-expanded="false"
+          aria-label="Burger icon"
+          onclick="menuAnim()"
+        >
           <!--this element is used for mobile burger menu-->
           <span></span>
         </button>
-        <button class="switch-color"></button>
+        <button class="switch-color" aria-label="Switch Theme Color"></button>
         <nav class="main-nav">
           <a href="#projects-section" class="generic-btn nav-btn">Projects</a>
           <a href="#contact-section" class="generic-btn nav-btn">Contact</a>
@@ -81,6 +86,16 @@
             >
           </div>
         </div>
+        <div class="grid-card">
+          <p class="project-name">Bus Tracker App</p>
+          <a href="https://pilin3.github.io/Bus-tracker/">
+            <img src="imgs/Note_Reminder.png" alt="website screenshot" />
+          </a>
+          <div class="card-btn">
+            <a href="https://pilin3.github.io/Bus-tracker/">Visit</a>
+            <a href="https://github.com/PiLin3/Bus-tracker">Source Code</a>
+          </div>
+        </div>
       </div>
     </section>
     <section id="contact-section">
@@ -114,11 +129,18 @@
         <a
           href="https://www.linkedin.com/in/mahmoud-hamdan-9a8139197/"
           data-social-link="linkedin"
+          aria-label="Linkedin Page"
         ></a>
-        <a href="https://github.com/PiLin3" data-social-link="github"></a>
+        <a
+          href="https://github.com/PiLin3"
+          data-social-link="github"
+          aria-label="Github Page"
+        ></a>
         <p>&copy; Mahmoud Hamdan</p>
       </div>
-      <a class="back-to-top" href="#about-section">&Barwed;</a>
+      <a class="back-to-top" href="#about-section" aria-label="Back TO Top"
+        >&Barwed;</a
+      >
     </section>
     <script src="script.js"></script>
   </body>
