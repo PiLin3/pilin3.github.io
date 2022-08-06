@@ -1,5 +1,5 @@
 :root {
-  --icon-anim-duration: 200ms;
+  --icon-anim-duration: 140ms;
   --main-bg-color: #d3d3d3;
   --main-font-color: black;
   --secondary-font-color: rgba(0, 0, 0, 0.65);
@@ -133,6 +133,7 @@ section {
   width: 3.5em;
   height: 3.5em;
   transform: scaleX(1);
+  -webkit-tap-highlight-color: transparent;
   transition: all 150ms ease-in-out;
 }
 .flip-x {
@@ -407,10 +408,10 @@ button[type="submit"] {
   opacity: 0.7;
 }
 .social-links a[data-social-link="github"] {
-  background-image: url(imgs/github_icon.png);
+  background-image: url(imgs/github_icon.webp);
 }
 .social-links a[data-social-link="linkedin"] {
-  background-image: url(imgs/linkedin_icon.png);
+  background-image: url(imgs/linkedin_icon.webp);
 }
 .back-to-top {
   position: absolute;
